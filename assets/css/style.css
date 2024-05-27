@@ -204,7 +204,7 @@ footer a {
 }
 
 /* MEDIUM */
-@media screen and (max-width:1199px){
+@media screen and (min-width:768px){
     body {
     font-size: 2rem;
 }
@@ -215,9 +215,41 @@ header div p {
     margin-top: 1.2em;
 }
 .contenitoreHTML img {
+    width: 80%; 
+}
+h2{
+    font-weight: 900;
+   
+}
+table {
+    width: 80%;
+    margin-inline: auto;
+    margin-bottom: 5em;
+}
+.half-height {
+    height: 150px; /* Altezza dimezzata dell'iframe non c'era */
+}
+input {
+    width:80%;
+    padding: 1em;
+    }
+ button{
+    padding-inline: 1.7em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+section h2 {
+    font-size: 1em;
+    padding: 1px;
+    }
+aside h2{
+    font-size:xx-large;
+}
+footer {
+    font-size: large;
+}
+}
+/* DESKTOP */
+@media screen and (min-width:1200px){
     
-   width: 80%;
-  
 }
-}
-
