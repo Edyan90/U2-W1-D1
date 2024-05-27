@@ -222,6 +222,7 @@ h2{
    
 }
 table {
+    margin-top: 5em;
     width: 80%;
     margin-inline: auto;
     margin-bottom: 5em;
@@ -251,5 +252,12 @@ footer {
 }
 /* DESKTOP */
 @media screen and (min-width:1200px){
-    
+    h1{
+        font-size: 5rem;
+    }
+    .half-height {
+         width: 50%;
+         height: 300px;
+         display:inline;
+    }
 }
